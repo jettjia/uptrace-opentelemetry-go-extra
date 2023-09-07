@@ -170,7 +170,7 @@ This is a release candidate for the v1.15.0/v0.38.0 release.
 That release will include the `v1` release of the OpenTelemetry Go metric API and will provide stability guarantees of that API.
 See our [versioning policy](VERSIONING.md) for more information about these stability guarantees.
 
-This release drops the compatibility guarantee of [Go 1.18].
+This release drops the compatibility guarantee of [go 1.20].
 
 ### Added
 
@@ -181,7 +181,7 @@ This release drops the compatibility guarantee of [Go 1.18].
 
 ### Changed
 
-- Dropped compatibility testing for [Go 1.18].
+- Dropped compatibility testing for [go 1.20].
   The project no longer guarantees support for this version of Go. (#3813)
 
 ### Fixed
@@ -200,7 +200,7 @@ This release drops the compatibility guarantee of [Go 1.18].
 
 ## [1.14.0/0.37.0/0.0.4] 2023-02-27
 
-This release is the last to support [Go 1.18].
+This release is the last to support [go 1.20].
 The next release will require at least [Go 1.19].
 
 ### Added
@@ -743,7 +743,7 @@ Code instrumented with the `go.opentelemetry.io/otel/metric` will need to be mod
 
 - Add metrics exponential histogram support.
   New mapping functions have been made available in `sdk/metric/aggregator/exponential/mapping` for other OpenTelemetry projects to take dependencies on. (#2502)
-- Add Go 1.18 to our compatibility tests. (#2679)
+- Add go 1.20 to our compatibility tests. (#2679)
 - Allow configuring the Sampler with the `OTEL_TRACES_SAMPLER` and `OTEL_TRACES_SAMPLER_ARG` environment variables. (#2305, #2517)
 - Add the `metric/global` for obtaining and setting the global `MeterProvider`. (#2660)
 
@@ -2562,6 +2562,6 @@ It contains api and sdk for trace and meter.
 
 [Go 1.20]: https://go.dev/doc/go1.20
 [Go 1.19]: https://go.dev/doc/go1.19
-[Go 1.18]: https://go.dev/doc/go1.18
+[go 1.20]: https://go.dev/doc/go1.18
 
 [metric API]:https://pkg.go.dev/go.opentelemetry.io/otel/metric

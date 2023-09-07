@@ -1,2 +1,6 @@
 *.db
 otelgraphql/example/graphql*
+
+.idea/
+.settings/
+.vscode/
