@@ -22,13 +22,20 @@
 
 参考：otellogrus/example
 
+
+
 ## redis
+
+参考：otelredis/otel
 
 
 
 ## mongo
 
+参考：example/mongo-driver
 
 
-## metirc
 
+## prometheus/metrics
+
+参考：example/prometheus
