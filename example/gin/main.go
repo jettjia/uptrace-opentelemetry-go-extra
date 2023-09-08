@@ -30,7 +30,7 @@ func main() {
 	router.GET("/", indexHandler)
 	router.GET("/hello/:username", helloHandler)
 
-	if err := router.Run("localhost:9999"); err != nil {
+	if err := router.Run(":9999"); err != nil {
 		log.Print(err)
 	}
 }
