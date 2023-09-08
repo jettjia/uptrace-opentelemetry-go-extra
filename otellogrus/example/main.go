@@ -17,7 +17,7 @@ func main() {
 	shutdown := otelplay.ConfigureOpentelemetry(ctx)
 	defer shutdown()
 
-	tracer := otel.Tracer("app_or_package_name")
+	tracer := otel.Tracer("app_or_package_name_logrus")
 
 	ctx, span := tracer.Start(ctx, "root")
 	defer span.End()

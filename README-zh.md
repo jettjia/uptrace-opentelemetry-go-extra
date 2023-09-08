@@ -20,7 +20,7 @@
 
 ## logrus
 
-
+参考：otellogrus/example
 
 ## redis
 
